@@ -1,0 +1,150 @@
+body {
+    font-family: Arial;
+    padding-top: 3%;
+}
+
+header {
+    display: block;
+    margin: 20px auto;
+    padding-top: 30px;
+    width: 100%;
+    height: 200px;
+    text-transform: uppercase;
+}
+
+#menu{
+    background-color: var(--verde-limao);
+    border-radius: 9999px;
+    padding: 10px 40px;
+    padding-top: 20px;
+    width: 65%;
+    height: 53px;
+    margin: 20px auto;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    margin: 5px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav li{
+    display: inline-block;
+}
+
+a {
+    border-radius: 9999px;
+}
+
+h1 {
+    display: inline-flex;
+    font-size: 15px;
+    align-items: center;
+    transform: translateY(-87px);
+}
+
+.logo {
+    width: 230px;
+    height: 215px;
+    border-radius: 9999px;
+}
+
+.nomedaloja {
+    width: 150px;
+    height: 56px;
+}
+
+.botao {
+    width: 75px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 6px;
+    margin-right: 25px;
+    transform: translateY(2px);
+ 
+}
+
+.b1:hover {
+    outline: 0;
+}
+
+.botaoimg {
+    width: 23px;
+    height: 20px;
+}
+
+.b1 {
+    padding-right: 10px;
+    margin-right: 5px;
+    border-right: 2px solid var(--verde-escuro);
+}
+
+.pesquisa {
+    position: absolute;
+    right: 0;
+    border-radius: 7px;
+    width: 30%;
+    height: 25px;
+    border: none;
+    outline: 0;
+    padding: 5px 10px;
+    margin-right: 15%;
+    margin-top: 3px;
+    background-color: var(--bege-claro-pesquisa);
+    background-image: url(/icons/icone-lupa.png);
+    background-repeat: no-repeat;
+    background-size: 23px 20px;
+    background-position: right center;
+}
+
+.opcoes {
+    position: relative;
+    margin-top: 40px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opcoes ul {
+    margin: 0 12px;
+}
+
+.opcoes li {
+    border: 0;
+    padding-right: 7px;
+    border-right: 2px solid black;
+}
+
+.opcoes li a {
+    color: black;
+    text-decoration: none;
+}
+
+.opcoes .las {
+    border-right: 0;
+    padding-right: 0;
+}
+
+.barra {
+    display: inline-block;
+    width: 120px;
+}
+
+.navlinks {
+    font-size: 12px;
+    margin: 3% 16% 0 0;
+    text-transform: none;
+}
+
+.navlinks li a {
+    text-decoration: none;
+}
+
+

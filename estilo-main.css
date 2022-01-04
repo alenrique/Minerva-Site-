@@ -1,0 +1,32 @@
+main{
+    border: 1px solid black;
+}
+
+.produtos {
+    width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+	text-align: center;
+	width: 30%;
+    height: 30%;
+	vertical-align: top;
+	margin: 1.5%;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li img {
+	border-radius: 10px;
+	height: 100%;
+    width: 100%;
+}
+
+.produtos li p, .produtos li a {
+    margin-top: 7px;
+    text-decoration: none;
+}
